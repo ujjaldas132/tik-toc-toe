@@ -1,4 +1,4 @@
-# tik-toc-toe
+# Tik-Toc-Toe
 
 [![forthebadge](http://forthebadge.com/images/badges/made-with-python.svg)](http://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/for-you.svg)](https://forthebadge.com)
 
