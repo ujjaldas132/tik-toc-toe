@@ -6,15 +6,14 @@ tik toc game is creating using python. check out how to play and rules of this g
 
 FILES:
 
-TikTocToeMain.py
+**TikTocToeMain.py**
  this the main files you have to run to
  
  
- visual.py:
- this file contains the turtle prograamme for grphis
+ **visual.py**:
+ this file contains the turtle prograamme for graphis
  
  
  
- check_result.py
- 
+ **check_result.py**
  this is to check to results of the game
