@@ -18,7 +18,10 @@
 
 Tik Toc Toe game is creating using python. check out how to play and rules of this game https://www.wikihow.com/Play-Tic-Tac-Toe
 
-FILES:
+## How To Use 
+Install requirements with `pip install -r requirements.txt`
+
+## FILES:
 
 **TikTocToeMain.py**
  this the main files you have to run to
