@@ -31,3 +31,6 @@ FILES:
  
  **check_result.py**
  this is to check to results of the game
+
+ ## license
+ The MIT License (MIT) 2018 - [Ujjal Das](https://github.com/ujjaldas132). Please have a look at the [LICENSE](LICENSE) for more details.
