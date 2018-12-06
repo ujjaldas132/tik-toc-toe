@@ -16,7 +16,7 @@
 
 
 
-tik toc game is creating using python. check out how to play and rules of this game https://www.wikihow.com/Play-Tic-Tac-Toe
+Tik Toc Toe game is creating using python. check out how to play and rules of this game https://www.wikihow.com/Play-Tic-Tac-Toe
 
 FILES:
 
