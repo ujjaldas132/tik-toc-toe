@@ -22,12 +22,12 @@ Tik Toc Toe game is creating using python. check out how to play and rules of th
 
 **Make sure PYTHON-3 is install in your system**
 
-**step 1** clone the respository by the command>>     `git clone https://github.com/ujjaldas132/tik-toc-toe.git`
-**step 2** go to the folder where you saved the clone by the command >>   `cd/"path to folder"'
-**step 3** Install requirements with the command>>    `pip install -r requirements.txt`
+**step 1** clone the respository by the command>>     `git clone https://github.com/ujjaldas132/tik-toc-toe.git`.
+**step 2** go to the folder where you saved the clone by the command >>   `cd/"path to folder"'.
+**step 3** Install requirements with the command>>    `pip install -r requirements.txt`.
 
-NOW YOUR SYTEM IS READY
-**NOW TO RUN THE PYTHON SCRIPT>>>**  `TicTacToeMain.py`
+NOW YOUR SYTEM IS READY.
+**NOW TO RUN THE PYTHON SCRIPT>>>**  `TicTacToeMain.py`.
 
 
 ## FILES:
