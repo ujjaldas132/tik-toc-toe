@@ -7,6 +7,7 @@ from turtle import *
 class attempt:
                 def __init__(self):
                                 self.count=1
+#to store no of moves
 attempt=attempt()
 
 
@@ -34,19 +35,17 @@ box()
 ##screen clicking
 def clicked(x,y):
                 if attempt.count<10:
-                                print(x,y)
                                 x=abs(x+150)
                                 y=abs(y-150)
-                                row=int(x/100)
-                                col=int(y/100)
-                                #print("cordinate>>",row,">",col)
-                                square_no=(row+1+(col*3))
+                                col=int(x/100)
+                                row=int(y/100)
+                                square_no=(col+1+(row*3))
                                 taking_input(square_no)
-                                #print("sqaure no",square_no)
                                 draw(square_no-1,centers,attempt.count)
                 else:
                                 print("\n\n")
                                 print("\t\tMATCH IS OVER")
+                                
                                 bye()
 onscreenclick(clicked)
 
@@ -74,7 +73,6 @@ for i in range(n):
 
 def taking_input(square_no):
                 [x,y]=coordinates[square_no-1]
-                #print("X Y",x,y)
 
                 user=""
 
@@ -86,10 +84,32 @@ def taking_input(square_no):
                                 matrix[x][y]=1
 
                 attempt.count+=1
+
+                #printing who  play the last move 
+                if attempt.count<10:
+                                print("last move>>>>>",user,"\n")
+
+                                
                 if x==0 or y==0:
                                 data_dict[user]=data_dict[user]+[[x,y]]
 
-                if(check(matrix,n,user,data_dict)==1):
+                temp=check(matrix,n,user,data_dict)
+
+                if(temp):
+                                
+                                first_center=temp[0]-1
+                                second_center=temp[1]-1
+
+                                color("blue")
+                                up()
+                                goto(centers[first_center][0],centers[first_center][1])
+                                down()
+                                goto(centers[second_center][0],centers[second_center][1])
+
+                                
+                                
+                                
+                                """ winner declearation line"""
                                 print("\n\n")
                                 print("***\t****\t****",user+" win")
                                 print("\n\n")

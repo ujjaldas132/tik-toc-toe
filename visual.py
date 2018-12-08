@@ -1,5 +1,5 @@
 from turtle import *
-
+speed(10)
 def circle_draw(x_center,y_center,radius):
                 up()
                 goto(x_center,y_center-radius)
@@ -41,14 +41,14 @@ def box():
                 setx(300)
 
 
-"""for i in range(9):"""
+
 def draw(i,centers,j):
                 if j%2==0:
                                 circle_draw(centers[i][0],centers[i][1],20)
                 else:
                                 cross_draw(centers[i][0],centers[i][1],20)
 
-##screen click
+
 
                 
 
