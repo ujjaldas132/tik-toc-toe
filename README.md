@@ -40,12 +40,20 @@ NOW YOUR SYTEM IS READY.
  
  
  **visual.py**:
- this file contains the turtle prograamme for graphis
+ this file contains the turtle prograamme for graphics
  
  
  
  **check_result.py**
  this is to check to results of the game
+ 
+ ## Contribution
+ 
+ You are most welcome if you want to contribute to this OPEN_SOURCE project but make sure that you  must go through the 'contribution.md' file
+ - here you can contribute to any Issue that alreaady found.
+ - you can also add your idea to improve the game.
+ - Also you can change the algorithm of previously developed part for better performance.
+ - Also you raise any issue and can contribute to that.
 
  ## license
  The MIT License (MIT) 2018 - [Ujjal Das](https://github.com/ujjaldas132). Please have a look at the [LICENSE](LICENSE) for more details.
