@@ -40,8 +40,9 @@ def clicked(x,y):
                                 col=int(x/100)
                                 row=int(y/100)
                                 square_no=(col+1+(row*3))
-                                taking_input(square_no)
                                 draw(square_no-1,centers,attempt.count)
+                                taking_input(square_no)
+                                
                 else:
                                 print("\n\n")
                                 print("\t\tMATCH IS OVER")
