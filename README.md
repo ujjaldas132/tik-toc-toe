@@ -11,7 +11,7 @@
 
 
 
-[![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://forthebadge.com) [![Join the chat at https://gitter.im/tik-toc-toe/Lobby](https://badges.gitter.im/tik-toc-toe/Lobby.svg)](https://gitter.im/tik-toc-toe/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 
 
