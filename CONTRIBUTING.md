@@ -15,7 +15,7 @@ First of all, thanks for thinking of contributing to this project. :smile:
 
     ```sh
     git clone https://github.com/ujjaldas132/tik-toc-toe.git
-    cd facebook-archive
+    cd tik-toc-toe
     git remote set-url upstream https://github.com/ujjaldas132/tik-toc-toe.git
     git remote set-url origin https://github.com/ujjaldas132/tik-toc-toe.git
     sudo chmod a+x run.sh # only for the first time
